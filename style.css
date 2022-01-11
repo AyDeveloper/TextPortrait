@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background:linear-gradient(35deg, #33ff, #741f2d);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.index {
+    min-height: 30vh;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5rem;
+}
+
+.index h3 {
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: overline;
+    margin-bottom: 2rem;
+}
+
+
+/* p {
+    height: 700px;
+    width: 700px;
+    background: url('wunmi.jpg') no-repeat;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+
+
+  .formBody {
+      padding: 50px 25px;
+      background: linear-gradient(35deg, #f3f3f3, #fff);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+      border-radius: 20px 12px;
+  }
+
+
+  .mainForm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .mainForm label {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+  }
+
+  select {
+      width: 100%;
+      padding: 10px 25px;
+      outline: none;
+      border: 1px solid #c9c3c3;
+  }
+
+  input[type='submit'] {
+      padding: 10px 25px;
+        background: transparent;
+        border: 1px solid #33ff;
+        color: #33ff;
+        cursor: pointer;
+        outline: none;
+  }
+
+  .display {
+      margin: 4rem;
+      min-height: 70vh;
+      width: 100%;
+      max-width: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding:30px 0;
+      overflow: hidden;
+      display: none;
+  }
+
+  .imgDiv   {
+      box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+      background: linear-gradient(45deg, black, #333);
+      height: 700px;
+      width: 100%;
+      max-width: 450px;
+      position: relative;
+  }
+
+  .pText {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  .takeScreenshot {
+      padding:10px 20px;
+      border: 1px solid #f3f3f3;
+      color: #33ff;
+      display: none;
+  }
